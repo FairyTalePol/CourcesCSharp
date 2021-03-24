@@ -1,0 +1,16 @@
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.exe
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.deps.json
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.runtimeconfig.json
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.runtimeconfig.dev.json
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.dll
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\ref\Lesson 2.dll
+D:\c# курсы\Lesson 2\Lesson 2\bin\Debug\net5.0\Lesson 2.pdb
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.csprojAssemblyReference.cache
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.AssemblyInfoInputs.cache
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.AssemblyInfo.cs
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.csproj.CoreCompileInputs.cache
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.dll
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\ref\Lesson 2.dll
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.pdb
+D:\c# курсы\Lesson 2\Lesson 2\obj\Debug\net5.0\Lesson 2.genruntimeconfig.cache
