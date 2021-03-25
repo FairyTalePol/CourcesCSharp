@@ -1,0 +1,16 @@
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.exe
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.deps.json
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.runtimeconfig.json
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.runtimeconfig.dev.json
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.dll
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\ref\HW2.dll
+D:\c# курсы\HW2\HW2\bin\Debug\net5.0\HW2.pdb
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.csprojAssemblyReference.cache
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.AssemblyInfoInputs.cache
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.AssemblyInfo.cs
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.csproj.CoreCompileInputs.cache
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.dll
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\ref\HW2.dll
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.pdb
+D:\c# курсы\HW2\HW2\obj\Debug\net5.0\HW2.genruntimeconfig.cache
