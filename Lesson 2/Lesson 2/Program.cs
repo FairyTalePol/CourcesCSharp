@@ -151,8 +151,24 @@ namespace Lesson_2
             string errorMsg = "Wrong input";
 
             double discount = amount > 10 ? (amount > 50 ? 0.85 : 0.9) : 1.0;
+            double price = -1;
+            switch(size)
+            {
+                case 1:
+                    price = costType1 * amount * discount;
+                    break;
+                case 2:
+                    price = costType2 * amount * discount;
+                    break;
+                case 3:
+                    price = costType3 * amount * discount;
+                    break;
+                default:
+                    Console.WriteLine("Wrong input");
+                    break;
+            }
 
-            double price = size * amount * discount;
+            
             Console.WriteLine($"Итоговая цена: {price}");
 
 
