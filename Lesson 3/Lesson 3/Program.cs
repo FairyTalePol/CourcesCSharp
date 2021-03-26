@@ -26,6 +26,89 @@ namespace Lesson_3
 
             //ForInsideFor();
 
+
+            /*Exmaple3();
+
+            Console.ReadKey();*/
+
+            //Example4();
+
+            //Sum1to10();
+
+            //Console.WriteLine(Mul1to10());
+            bool cont = true;
+            do
+            {
+                Console.WriteLine("Введите два числа;");
+                Console.WriteLine(Pow(2, 8));
+                Console.WriteLine("Продолжить? (y)");
+                cont = Console.ReadLine() == "y" ? true : false;
+            } while (cont);
+          
+
+        }
+
+        public static double Pow(int a, int b)
+        {
+            double res = 1;
+            if (b>=0)
+            {
+                int i = 0;
+               
+                while (i < b)
+                {
+                    res = res * a;
+                    i++;
+                }
+            }
+            else
+            {           
+                res = 1 / Pow(a, b*(-1));
+            }
+            
+            return res;
+
+        }
+
+        public static int Mul1to10()
+        {
+           
+            int res = 1;
+            for (int i=1;i<=10;i++)
+            {
+                res *= i;
+            }
+            return res;
+        }
+
+        public static void Sum1to10()
+        {
+            int i = 0;
+            int sum = 0;
+            do
+            {
+                i++;
+                sum += i;
+
+            } while (i < 10);
+            Console.WriteLine(sum);
+        }
+
+        public static void Example4()
+        {
+            int i = 10;
+            while (i>0)
+            {
+               
+                if (i == 5)
+                    continue;
+                Console.WriteLine(i--);
+
+            }
+        }
+
+        private static void Exmaple3()
+        {
             Console.WriteLine("Укажите количество повторений");
             //int n = Convert.ToInt32(Console.ReadLine());
 
@@ -39,10 +122,7 @@ namespace Lesson_3
                     Console.WriteLine($"Your name is {name}, last name is {lastName}");
                 }
             }
-           
-          
 
-            Console.ReadKey();
         }
 
         private static void ForInsideFor()
