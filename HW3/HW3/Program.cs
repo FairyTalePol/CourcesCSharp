@@ -6,6 +6,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("In some tasks migh be problems with regional difference '.' or ',' in numbers. The developer yet does not know how to fix it");
             //Task1();
 
