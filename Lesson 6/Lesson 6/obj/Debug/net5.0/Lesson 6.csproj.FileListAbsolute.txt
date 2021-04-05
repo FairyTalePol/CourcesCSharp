@@ -1,0 +1,16 @@
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.exe
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.deps.json
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.runtimeconfig.json
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.runtimeconfig.dev.json
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.dll
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\ref\Lesson 6.dll
+D:\c# курсы\Lesson 6\Lesson 6\bin\Debug\net5.0\Lesson 6.pdb
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.csprojAssemblyReference.cache
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.AssemblyInfoInputs.cache
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.AssemblyInfo.cs
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.csproj.CoreCompileInputs.cache
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.dll
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\ref\Lesson 6.dll
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.pdb
+D:\c# курсы\Lesson 6\Lesson 6\obj\Debug\net5.0\Lesson 6.genruntimeconfig.cache

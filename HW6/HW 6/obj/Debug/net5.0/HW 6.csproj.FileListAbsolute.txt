@@ -1,0 +1,32 @@
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.exe
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.deps.json
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.runtimeconfig.json
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.runtimeconfig.dev.json
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.dll
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\ref\HW 6.dll
+D:\c# курсы\HW 6\HW 6\bin\Debug\net5.0\HW 6.pdb
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.csprojAssemblyReference.cache
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.AssemblyInfoInputs.cache
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.AssemblyInfo.cs
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.csproj.CoreCompileInputs.cache
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.dll
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\ref\HW 6.dll
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.pdb
+D:\c# курсы\HW 6\HW 6\obj\Debug\net5.0\HW 6.genruntimeconfig.cache
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.csprojAssemblyReference.cache
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.AssemblyInfoInputs.cache
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.AssemblyInfo.cs
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.csproj.CoreCompileInputs.cache
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.dll
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\ref\HW 6.dll
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.pdb
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.exe
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.deps.json
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.runtimeconfig.json
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.runtimeconfig.dev.json
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.dll
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\ref\HW 6.dll
+D:\c# курсы\HW6\HW 6\bin\Debug\net5.0\HW 6.pdb
+D:\c# курсы\HW6\HW 6\obj\Debug\net5.0\HW 6.genruntimeconfig.cache
