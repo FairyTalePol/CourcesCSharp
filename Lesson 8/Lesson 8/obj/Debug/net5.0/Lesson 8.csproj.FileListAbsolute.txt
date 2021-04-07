@@ -1,0 +1,16 @@
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.exe
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.deps.json
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.runtimeconfig.json
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.runtimeconfig.dev.json
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.dll
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\ref\Lesson 8.dll
+D:\c# курсы\Lesson 8\Lesson 8\bin\Debug\net5.0\Lesson 8.pdb
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.AssemblyInfoInputs.cache
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.AssemblyInfo.cs
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.csproj.CoreCompileInputs.cache
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.dll
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\ref\Lesson 8.dll
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.pdb
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.genruntimeconfig.cache
+D:\c# курсы\Lesson 8\Lesson 8\obj\Debug\net5.0\Lesson 8.csprojAssemblyReference.cache
