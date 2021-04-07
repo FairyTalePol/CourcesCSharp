@@ -16,7 +16,7 @@ namespace HW5
 
             //Task8();
 
-            //Task9();
+            Task9();
 
             //Task10();
         }
