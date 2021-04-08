@@ -13,18 +13,20 @@ namespace HW_6
                 { "seven", "7" },
                 { "eight", "8" },
                 { "nine", "9" },
-                { "zero", "0" } };
+                { "", "0" } };
 
-        static string[,] teenNumbers = new string[5, 2] { {"eleven", "11"},
+        static string[,] teenNumbers = new string[6, 2] { {"eleven", "11"},
                 { "twelve", "12" },
                 { "thirteen", "13" },
                 { "fifteen", "15" },
-                {"ten","10" }
+                {"ten","10" },
+                {"eighteen","18" }
               };
 
-        static string[,] tyNumbers = new string[3, 2] { {"twenty", "2"},
+        static string[,] tyNumbers = new string[4, 2] { {"twenty", "2"},
                 { "thirty", "3" },
-                { "fifty", "5" }
+                { "fifty", "5" },
+                {"eighty","8" }
               };
 
         static string[] errors = new string[4] 
@@ -37,9 +39,11 @@ namespace HW_6
 
         static void Main(string[] args)
         {
-            Tasks_1_to_5();
+            //Tasks_1_to_5();
 
             //Task7();
+
+            Task6();
 
         }
 
@@ -171,14 +175,95 @@ namespace HW_6
             do
             {
                 Console.WriteLine("Type number (example: 423):");
-                res = SplitNumber(Console.ReadLine(), out error);
-                while (res == null)
+                int number;
+                while (!int.TryParse(Console.ReadLine(), out number)||number>999)
                 {
-                    Console.WriteLine($"{error}\n");
-                    res = SplitNumber(Console.ReadLine(), out error);
+                    Console.WriteLine("Incorrect input, integer expected (0-999)");
                 }
+                res = IntToString(number,out error);
                 Console.WriteLine($"Result number: {res}\n");
             } while (true);
+        }
+
+        static string IntToString(int number, out string error)
+        {
+            error = "";
+            if (number == 0)
+                return "zero";
+            string sNumber = number.ToString();
+           
+            string res = "";
+            if (sNumber.Length==1)
+            {
+                if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true) != null)
+                {
+                    res = $"{res}{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true)}";
+                }
+            }
+            else
+            {
+                if (sNumber[sNumber.Length-2].ToString()=="1")
+                {
+                    if (GetFromArray(teenNumbers, sNumber.Substring(sNumber.Length-2,2), true)!=null)
+                    {
+                        res = $"{res}{GetFromArray(teenNumbers, sNumber.Substring(sNumber.Length - 2, 2), true)}";
+                    }
+                    else if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true) != null)
+                    {
+                        res = $"{res}{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true)}teen";
+                    }
+                    else
+                    {
+                        error = "Incorrect input";
+                        return null;
+                    }
+                }
+                else if (sNumber[sNumber.Length - 2].ToString().Equals("0"))
+                {
+                    if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true) != null)
+                    {
+                        res = $"{res}{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true)}";
+                    }
+                    else
+                    {
+                        error = "Incorrect input";
+                        return null;
+                    }
+                }
+                else
+                {
+                    if (GetFromArray(tyNumbers, sNumber.Substring(sNumber.Length - 2, 1), true) != null)
+                    {
+                        res = $"{res}{GetFromArray(tyNumbers, sNumber.Substring(sNumber.Length - 2, 1), true)}";
+                    }
+                    else if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 2, 1), true) != null)
+                    {
+                        res = $"{res}{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 2, 1), true)}ty";
+                    }
+                    else
+                    {
+                        error = "Incorrect input";
+                        return null;
+                    }
+
+                    if (sNumber.Substring(sNumber.Length - 1, 1) != "0")
+                        res += "-";
+                    if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true) != null)
+                    {
+                        res = $"{res}{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 1, 1), true)}";
+                    }
+                }    
+
+            }
+            if (sNumber.Length>2)
+            {
+                if (GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 3, 1), true) != null)
+                {
+                    res = $"{GetFromArray(baseNumbers, sNumber.Substring(sNumber.Length - 3, 1), true)} hundred {res}";
+                }
+            }
+
+            return res;
         }
         static void Task7()
         {
@@ -287,12 +372,18 @@ namespace HW_6
             return result;
         }
 
-        static string GetFromArray(string[,] arr, string key)
+        static string GetFromArray(string[,] arr, string key,  bool rev = true)
         {
             for (int i=0;i<arr.GetLength(0);i++)
             {
-                if (arr[i, 0].Equals(key))
-                    return arr[i, 1];
+                if (!rev)
+                {
+                    if (arr[i, 0].Equals(key))
+                        return arr[i, 1];
+                }
+                else if (arr[i, 1].Equals(key))
+                    return arr[i, 0];
+
             }
             return null;
         }
